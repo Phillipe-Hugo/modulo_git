@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: darkseagreen;
+    padding: 16px 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li a {
+    background-color: darkseagreen;
+    padding: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: darkseagreen;
+    padding: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+header li {
+    display: inline;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.artigos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article img {
+    /*height: 100px;*/
+    width: 100%;
+}
+
+.artigos article{
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .artigos article {
+    margin-bottom: 16px;
+}
+
+.artigos article h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.artigos article a {
+    background-color: darkseagreen;
+    color:rgb(31, 7, 7);
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.artigos article a:hover {
+    background-color: darkseagreen;
+    color:rgb(31, 7, 7);
+    padding: 8px;
+    display: inline-block;
+    text-decoration: underline;
+
+}
+
+.artigos article p, .artigos article a {
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.artigos article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#economy {
+    background-color:aquamarine;
+}
+
+#entretenimento {
+    background-color:blanchedalmond;
+}
+
+#tecnologia{
+    background-color: khaki;
+}
